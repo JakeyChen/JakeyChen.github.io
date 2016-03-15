@@ -1,0 +1,59 @@
+# Site settings
+title: Coder丶Jakey
+header-img: "img/elephant.jpg"
+tagline: "cn"  
+description: "知人者智，自知者明。胜人者有力，自胜者强。"  
+baseurl: ""
+url: "http://jakey.cc"  
+
+# About/contact
+owner: 
+  name: " Jakey.Chen"
+  email: 281743668@qq.com
+  bio: "2333"
+
+# Data
+gavatar: http://dreamofbook.qiniudn.com/Az..png
+favicon: img/favicon.ico
+
+github_username: JakeyChen  
+zhihu_username: chen-jing-shi-47
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "JakeyChen"
+      header-img: "img/green.jpg"
+
+# Comments 
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : jakeychen
+  disqus :
+      short_name : jakeychen
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: 
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
