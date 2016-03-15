@@ -40,7 +40,7 @@ defaults:
     values:
       layout: "post"
       author: "JakeyChen"
-      header-img: "img/green.jpg"
+      header-img: "img/umbrella.jpg"
 
 # Comments 
 comments :
