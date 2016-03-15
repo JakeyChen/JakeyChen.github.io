@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "tools"
+title: "Tools"
 description: "是的，这些网站都很好玩"
 header-img: "img/autumn.jpg"
 ---

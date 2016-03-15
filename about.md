@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "about"
+title: "About"
 description: "安安静静的混子"
 header-img: "img/plane.jpg"
 ---

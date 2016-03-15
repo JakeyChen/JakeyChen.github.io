@@ -2,11 +2,11 @@
 layout: page
 title: "Tags"
 description: "物以类聚"  
-header-img: "img/semantic.jpg"  
+header-img: "img/bay.jpg"  
 ---
 
 
-### 分类列表
+### TagsList 
 
 
 <div id='tag_cloud'>
@@ -14,6 +14,8 @@ header-img: "img/semantic.jpg"
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
 </div>
+
+<hr />
 
 <ul class="listing">
 {% for tag in site.tags %}
