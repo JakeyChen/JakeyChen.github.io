@@ -1,9 +1,10 @@
 # Coder丶Jakey
 
 This is a blog created by Azeril/CnFeat. 
-Azeril's blog is live at [azeril.me](http://azeril.me/).
-CnFeat's blog is live at [cnfeat.com](http://cnfeat.com/).
-Jakey's blog is live at [jakey.cc](http://jakey.cc/).
+
+* Azeril's blog is live at [azeril.me](http://azeril.me/).
+* CnFeat's blog is live at [cnfeat.com](http://cnfeat.com/).
+* Jakey's blog is live at [jakey.cc](http://jakey.cc/).
 
 ## Thanks
 
