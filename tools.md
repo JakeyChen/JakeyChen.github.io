@@ -9,3 +9,5 @@ header-img: "img/autumn.jpg"
 ### Convert 
 
 [草料二维码生成器](http://cli.im/)
+
+[Touch typing practice](http://www.wordlm.com/wubi/youxi/3989.html)
