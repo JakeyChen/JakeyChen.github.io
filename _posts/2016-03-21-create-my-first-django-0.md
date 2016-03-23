@@ -11,6 +11,8 @@ description: Django Demo.
 
 创建第一个Django程序，本文为个人读书笔记，为了加深记忆和练习VIM特此记录：
 
+## 创建一个项目
+
 在终端下，cd到你想要用来保存代码的目录，然后运行如下命令：
 
     $ django-admin startproject mysite
@@ -41,6 +43,59 @@ description: Django Demo.
 
 * mysite/wsgi.py: 用于你的项目与WSGI兼容的Web服务器入口，更多细节参见[如何利用WSGI进行部署](http://python.usyiyi.cn/django/howto/deployment/wsgi/index.html)
 
-数据库的建立：
+## 数据库的建立：
+
+如果使用sqlite，不需要事先创建任何东西--数据库文件将会在需要的时候自动创建
+
+我这里使用的是mysql，中文，东八区
+
+mysite/setting.py 配置如下(假定你已经创建了一个叫polls的数据库和一个叫jakey的用户)：
+
+	DATABASES = {
+		'default': {
+			'ENGINE': 'django.db.backends.mysql', 
+			'NAME': 'polls',
+			'USER': 'jakey',
+			'PASSWORD': 'cjs168',
+			'HOST': 'localhost',
+			'PORT': '3306',
+		 }
+	}
+
+	LANGUAGE_CODE = 'zh-CN'
+
+	TIME_ZONE = 'Asia/Shanghai'
+
+创建数据库的脚本(init\_polls.sql)：
+
+	drop database if exists polls;
+	
+	create database polls;
+
+	GRANT ALL ON polls.* TO 'jakey' IDENTIFIED BY 'cjs168';
+
+执行以下命令(输入设置的root的密码)：
+
+	$ mysql -u root -p < init\_polls.sql
+
+
+默认情况下，INSTALL\_APPS包含下面的应用，它们都是Django与生俱来的：
+
+* django.contrib.admin --管理站点
+
+* django.contrib.auth --认证系统
+
+* django.contrib.contrnttypes --用于内容类型的框架
+
+* django.contrib.sessions --会话框架
+
+* django.contrib.messages --消息框架
+
+* django.contrib.staticfiles --管理静态文件的框架
+
+然而上面的部分应用至少需要使用一个数据库表，因此我们需要在使用它们之前先在数据库中创建相应的表
+
+	$ python manage.py migrate
+
 
 
