@@ -13,3 +13,5 @@ header-img: "img/autumn.jpg"
 [Touch typing practice](http://www.wordlm.com/wubi/youxi/3989.html)
 
 [Django 1.8.2文档](http://python.usyiyi.cn/django/intro/tutorial01.html)
+
+[learn knockoutjs](http://learn.knockoutjs.com/#/?tutorial=collections)
