@@ -17,3 +17,5 @@ header-img: "img/autumn.jpg"
 [StackEdit-Editor](https://stackedit.io/editor)
 
 [小书匠](http://markdown.xiaoshujiang.com/)
+
+[learn knockoutjs](http://learn.knockoutjs.com/#/?tutorial=collections)
