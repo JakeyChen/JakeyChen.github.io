@@ -7,14 +7,18 @@ header-img: "img/sky2.jpg"
 
 ## 三月书单
 
-* [静静的顿河](https://book.douban.com/subject/1085848/)
-* [唐诗鉴赏集](https://book.douban.com/subject/2039803/)
 * [挪威的森林](https://book.douban.com/subject/1046265/)
-
-唐诗每日一首
 
 ***
 
 ## 四月书单
 
-* [None](https://book.douban.com/)
+* [追风筝的人](https://book.douban.com/subject/1770782/)
+
+***
+
+## 七月书单
+
+* [摆渡人](https://book.douban.com/subject/26356948/)
+
+* [围城](https://book.douban.com/subject/24745649/)
