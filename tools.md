@@ -8,14 +8,8 @@ header-img: "img/autumn.jpg"
 
 ### Convert 
 
-[草料二维码生成器](http://cli.im/)
-
-[Touch typing practice](http://www.wordlm.com/wubi/youxi/3989.html)
+[小书匠](http://markdown.xiaoshujiang.com/)
 
 [Django 1.8.2文档](http://python.usyiyi.cn/django/intro/tutorial01.html)
-
-[StackEdit-Editor](https://stackedit.io/editor)
-
-[小书匠](http://markdown.xiaoshujiang.com/)
 
 [learn knockoutjs](http://learn.knockoutjs.com/#/?tutorial=collections)
